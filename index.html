@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
+</head>
+<body>
+	<div class="container">
+		<div class="column">
+			<form>
+				<label>FIRST NAME</label>
+				<input type="text" name="first" placeholder="John" required>
+				<label>LAST NAME</label>
+				<input type="text" name="last" placeholder="Doe" required>
+				<label>EMAIL</label>
+				<input type="email" placeholder="john@doe.com" required>
+				<label>COUNTRY</label>
+					<select name="country" required>
+					<option value="France">France</option>
+					<option value="United States">United States</option>
+					<option value="Belize">Belize</option>
+					<option value="Ireland">Ireland</option>
+					<option value="Poland">Poland</option>
+					</select>
+			<label>BIOGRAPHY</label>
+				<textarea name="biography"></textarea>
+			</form>
+		</div>
+		<div class="column">
+			<form>
+				<label>PHONE NUMBER</label>
+				<input type="number" name="phone" placeholder="(351)999-9999" required pattern="([0-9]{3})[0-9]{3}-[0-9]{4}">
+				<label>AFFILIATIONS</label>
+				<textarea name="affiliations" required></textarea>
+				<label>OCCUPATION</label>
+				<select name="occupation" required>
+					<option selected disabled>Choose an Occupation</option>
+					<option value="programmer">Programmer</option>
+					<option value="proathlete">Professional Athlete</option>
+					<option value="progamer">Professional Gamer</option>
+					<option value="rockstar">Rockstar</option>
+				</select>
+				<label>CAT'S NAME</label>
+				<input class="placeblue" placeholder="Kitty" name="cat">
+				<label>FAVORITE GADGET</label>
+				<input class="placeblue" name="gadget" placeholder="Annoy-a-Tron" required>
+			</form>
+		</div>
+		<div class="column">
+			<form>
+				<label>TYPE OF TALENT</label>
+				<select name="talent" required>
+					<option selected disabled>Choose a talent</option>
+					<option value="jumping">Jumping</option>
+					<option value="playing">Playing</option>
+					<option value="thinking">Thinking</option>
+					<option value="doing">Doing Things</option>
+				</select>
+				<label>FAVORITE DRINK</label>
+				<input class="placeblue" type="text" name="drink" placeholder="Green Tea" required>
+				<label>SPECIAL POWER</label>
+				<input class="placeblue" type="text" name="power" placeholder="Anti-gravity" required>
+				<label>WEAPON OF CHOICE</label>
+				<input class="placeblue" type="text" name="weapon" placeholder="Lightsaber" required>
+				<label>COMMENTS</label>
+				<textarea></textarea>
+			</form>
+		</div>
+	</div>	
+</body>
+</html>

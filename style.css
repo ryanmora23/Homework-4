@@ -1,0 +1,38 @@
+.container{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+	background-color: lightblue;
+	font-size: 12px
+	margin:0px auto 0;
+}
+form>*{
+	background-color: lightblue;
+	border-color: white;
+}
+.column{
+	display:inline-block;
+}
+::-webkit-input-placeholder{
+	color:darkblue;
+}
+form{
+	max-width: 10em;
+	padding:1.5em;
+}
+input:invalid{
+	background-color: red;
+}
+input:valid{
+	background-color: green;
+}
+input:invalid:focus{
+	background-color: orange;
+}
+textarea:active{
+	background-color: #006666;
+}
+select:hover{
+	cursor: pointer;
+	background-color: darkblue;
+	color: #99FF66;
+}
